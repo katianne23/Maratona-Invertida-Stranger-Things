@@ -43,7 +43,7 @@
               </div>
 
               <img
-                class="invert-element"
+                class="invert-element img"
                 src="assets/images/content/inverted-world.png"
                 alt="Image ilustrativa do Mundo Invertido"
               />
@@ -112,7 +112,7 @@
                   <input type="email" name="email" id="txtEmail">
               
                   <label for="level">Level</label>
-                  <input type="text" name="level" id="txtLevel">
+                  <input type="number" name="level" id="txtLevel">
               
                   <label for="character">Personagem</label>
                   <textarea name="character" cols="30" rows="10" id="txtCharacter"></textarea>
@@ -133,27 +133,7 @@
         <p>&copy; Katianne Araújo</p>
         <img src="assets/images/footer/logo.svg" alt="Logotipo DIO">
     </footer>
+    <script src="assets/js/script.js"></script>
     <script type="module" src="assets/js/main.js"></script>
-    <script>
-
-      window.addEventListener('click', function(){
-        const audio = document.getElementById('music');
-        audio.play();
-        audio.volume = 0.2;
-      })
-
-      function switchTheme(){
-        document.body.classList.toggle('dark-theme');
-        document.body.classList.toggle('light-theme');
-
-        const theme = document.body.classList[0];
-        const music = theme === 'light-theme' ? 'normal-world.mpeg' : 'inverted-world.mpeg';
-
-        const audio = document.getElementById('music');
-        audio.src = `assets/musics/${music}`;
-        audio.play();
-        audio.volume = 0.2;
-      }
-    </script>
 </body>
 </html>

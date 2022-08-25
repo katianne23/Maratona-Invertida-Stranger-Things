@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+   section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #section-inverted-world .section-texts h2,
+    .section-texts h2{
+        font-size: 30px;
+        align-items: center;
+    }
+    .img{
+        width: 220px;
+    }
+    #section-stranger-things-trailer .video-frame iframe{
+        width: 265px;
+    }
+    #section-stranger-things-gallery .container h2{
+        font-size: 12px;
+    }
+    
+}
