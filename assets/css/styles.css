@@ -219,7 +219,7 @@ section {
 }
 
 #section-stranger-things-gallery .container h2 {
-    width: 800px;
+    width: 700px;
 }
 
 #section-stranger-things-gallery .gallery-container {
@@ -278,7 +278,7 @@ section {
 
 #section-form .form-container {
     flex-basis: 50%;
-    position: relative;
+    position: relative; 
 }
 
 #section-form .form-container::after {
