@@ -182,12 +182,6 @@ section {
 }
 
 /* Section 02- Trailer*/
-
-#section-stranger-things-trailer .section-texts {
-    width: 50%;
-    text-align: right;
-}
-
 #section-stranger-things-trailer .section-texts h2 {
     max-width: 425px;
     display: inline-block;
@@ -216,10 +210,6 @@ section {
 
 #section-stranger-things-gallery .container {
     width: 100%;
-}
-
-#section-stranger-things-gallery .container h2 {
-    width: 700px;
 }
 
 #section-stranger-things-gallery .gallery-container {
@@ -334,14 +324,11 @@ footer p {
 }
 
 footer::before,
-footer::after {
+    footer::after {
     content: "";
-    width: 300px;
-    height: 200px;
     background: url("../images/footer/tape.svg") no-repeat;
     background-size: contain;
     position: absolute;
-    bottom: -30px;
 }
 
 footer::before {
@@ -353,3 +340,4 @@ footer::after {
     right: -50px;
     transform: rotateZ(10deg);
 }
+
